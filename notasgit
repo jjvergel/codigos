@@ -2,13 +2,19 @@
 2. git config --global usar.mail "juanjose.vergel@gmail.com"
 3. git clone URL del repositorio
 4. ubicar o crear los archivos en la carpeta que se va a seguir
+5. git add notasgit
+6. git status
+7. git commit -m "primera version de bla bla bla"	
+8. git status ... ver estado actual de los archivos
+9. git log ... 
+10. git push origin master
 
-
-
-pwd		working directory
-cd		cambiar directorio a 
-cd ..		mover al directorio superior
-mkdir		crear carpetea
-touch		crea un archivo
-date		devuelve fecha
+pwd				working directory
+cd				cambiar directorio a 
+cd ..				mover al directorio superior
+mkdir				crear carpetea
+touch				crea un archivo
+date				devuelve fecha
+git clone URL			clona el repositorio creado en git hub
+git push origin master		enviar cambios a git hub
 

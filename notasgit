@@ -1,0 +1,14 @@
+1. crear repositorio en github
+2. git config --global usar.mail "juanjose.vergel@gmail.com"
+3. git clone URL del repositorio
+4. ubicar o crear los archivos en la carpeta que se va a seguir
+
+
+
+pwd		working directory
+cd		cambiar directorio a 
+cd ..		mover al directorio superior
+mkdir		crear carpetea
+touch		crea un archivo
+date		devuelve fecha
+

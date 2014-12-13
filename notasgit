@@ -4,10 +4,11 @@
 4. ubicar o crear o editar los archivos en la carpeta que se va a seguir
 ...
 5. git status
-5. git add notasgit
-6. git status ... notas en verde para cambiar
-7. git commit -m "primera version de bla bla bla"	
-8. git status ... ver estado actual de los archivos
+6. git add notasgit
+7. git status ... notas en verde para cambiar
+8. git commit -m "primera version de bla bla bla"	
+9. git status ... ver estado actual de los archivos
+...
 9. git log ... ver historial de cambios guardados localmente
 10. git push origin master
 

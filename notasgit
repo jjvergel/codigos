@@ -5,7 +5,7 @@
 ...
 5. git status
 5. git add notasgit
-6. git status
+6. git status ... notas en verde para cambiar
 7. git commit -m "primera version de bla bla bla"	
 8. git status ... ver estado actual de los archivos
 9. git log ... ver historial de cambios guardados localmente
@@ -18,5 +18,7 @@ mkdir				crear carpetea
 touch				crea un archivo
 date				devuelve fecha
 git clone URL			clona el repositorio creado en git hub
-git push origin master		enviar cambios a git hub
+git add 			actualizar el track de archivos
+git add .			track all files in current directory
 git commit -m "bla bla"		guardar cambios
+git push origin master		enviar cambios a git hub

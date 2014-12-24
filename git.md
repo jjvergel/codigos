@@ -4,9 +4,9 @@
 
 1. Crear repositorio en github
 2. Configurar cuenta con el pc y remoto:
-    ```R
-    git config --global user.email "juanjose.vergel@gmail.com"
-    ```
+```R
+git config --global user.email "juanjose.vergel@gmail.com"
+```
 3. Copiar repositorio remoto localmente
 ```R
 git clone [URL del repositorio]

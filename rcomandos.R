@@ -11,21 +11,6 @@ download.file(fileurl, destfile = "./speedcamera/cameras.csv")
 data <- read.csv("camera.csv")
 read.table("./speedcamera/camera.csv", sep=",", header=TRUE)
 
-??read
-## INSTALAR PAQUETES WINDOWS
-install.packages("swirl")
-library(swirl)
-swirl()
-## INSTALAR PAQUETES UBUNTU....lineas para el TERMINAL
-sudo apt-get install libxml2-dev ## XML
-sudo apt-get install r-cran-testthat ## testthat
-
-packageStatus()
-
-## SET NEW...PONER LIBRERIA CUANDO NO DEJA INSTALAR UN PAQUETE...WINDOWS
-.libPaths()
-.libPaths("/users/juanjos?/documents/r/win-library/3.1")
-
 ## COMANDOS PARA DATAFRAMES
 dim (data)
 summary(data[3])
@@ -50,6 +35,8 @@ unclass(data) ## convierte niveles en enteros
 ncol (data) ## numero de columnas de un data frame
 nrow (data)
 
+tapply(Data$pwgtp15,Data$SEX,mean)
+
 ## SWIRL comandos
 skip()
 play()
@@ -58,3 +45,23 @@ bye()
 main()
 info()
 
+===================================================================
+??read
+?read
+str(algo)
+## INSTALAR PAQUETES WINDOWS
+install.packages("swirl")
+library(RMySQL)
+swirl()
+
+as.character(R.Version()) ## VRSION DE R
+## INSTALAR PAQUETES UBUNTU....lineas para el TERMINAL
+lsb_release -a ## versioN de UBUNTU
+sudo apt-get install libxml2-dev ## XML
+sudo apt-get install r-cran-testthat ## testthat
+sudo apt-get install r-cran-plyr r-cran-xml r-cran-reshape r-cran-reshape2 r-cran-rmysql ## varios paquetes
+packageStatus()
+
+## SET NEW...PONER LIBRERIA CUANDO NO DEJA INSTALAR UN PAQUETE...WINDOWS
+.libPaths()
+.libPaths("/users/juanjos?/documents/r/win-library/3.1")
